@@ -1,4 +1,6 @@
+import { outputondisplay } from "./src/index.js";
+import { retunlastval } from "./src/index.js";
 import _ from "lodash";
 
-console.log("Hello, Hexlet!");
-console.log(_.last(["one", "two"]));
+console.log(outputondisplay());
+console.log(retunlastval(["one", "two"]));
